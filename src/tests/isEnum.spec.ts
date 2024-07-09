@@ -35,7 +35,7 @@ it("should return true when a value that matches an enum is passed", () => {
   expect(isEnum(StringEnum, "bar")).toBe(true)
 })
 
-it("should return a partially applied function when only the first enum argument is passed", () => {
+it("should return a partially applied function", () => {
   const isNumberEnum = isEnum(NumberEnum)
   const isStringEnum = isEnum(StringEnum)
 
