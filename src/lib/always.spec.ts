@@ -2,10 +2,11 @@ import { expect, it } from "vitest"
 import { always } from "./always"
 
 it("should return primitive values", () => {
-  expect(always(1234)()).toBe(1234)
+  expect(always("abc")()).toBe("abc")
+  expect(always(false)()).toBe(false)
   expect(always(true)()).toBe(true)
   expect(always(null)()).toBe(null)
-  expect(always("foo")()).toBe("foo")
+  expect(always(123)()).toBe(123)
 })
 
 it("should return objects by reference", () => {
