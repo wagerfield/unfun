@@ -8,6 +8,9 @@
 # vercel
 /.vercel
 
+# tmp
+/tmp
+
 # env
 .env*
 !.env.example
