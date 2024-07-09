@@ -34,14 +34,16 @@ export { values } from "./values"
 export { entries } from "./entries"
 
 // Math Functions
+export { min } from "./min"
+export { max } from "./max"
+export { inc } from "./inc"
+export { dec } from "./dec"
+export { pow } from "./pow"
 export { add } from "./add"
 export { subtract } from "./subtract"
 export { multiply } from "./multiply"
 export { divide } from "./divide"
 export { modulo } from "./modulo"
-export { pow } from "./pow"
-export { min } from "./min"
-export { max } from "./max"
 
 // String Functions
 // export { toString } from "./toString"
