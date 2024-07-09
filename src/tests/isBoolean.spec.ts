@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isBoolean } from "./isBoolean"
+import { isBoolean } from "unfun"
 
 it("should return false when the provided value is not a boolean", () => {
   expect(isBoolean("abc")).toBe(false)

@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { identity } from "./identity"
+import { identity } from "unfun"
 
 it("should return primitive values", () => {
   expect(identity("abc")).toBe("abc")

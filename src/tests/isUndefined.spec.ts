@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isUndefined } from "./isUndefined"
+import { isUndefined } from "unfun"
 
 it("should return false when the provided value is not undefined", () => {
   expect(isUndefined("abc")).toBe(false)

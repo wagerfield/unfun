@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isObject } from "./isObject"
+import { isObject } from "unfun"
 
 it("should return false when the provided value is not an object", () => {
   expect(isObject("abc")).toBe(false)

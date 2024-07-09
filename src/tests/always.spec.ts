@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { always } from "./always"
+import { always } from "unfun"
 
 it("should return primitive values", () => {
   expect(always("abc")()).toBe("abc")

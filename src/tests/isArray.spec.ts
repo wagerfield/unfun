@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isArray } from "./isArray"
+import { isArray } from "unfun"
 
 it("should return false when the provided value is not an array", () => {
   expect(isArray("abc")).toBe(false)

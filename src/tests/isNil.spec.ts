@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isNil } from "./isNil"
+import { isNil } from "unfun"
 
 it("should return false when the provided value is not null or undefined", () => {
   expect(isNil("abc")).toBe(false)

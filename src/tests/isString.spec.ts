@@ -1,5 +1,5 @@
 import { expect, it } from "vitest"
-import { isString } from "./isString"
+import { isString } from "unfun"
 
 it("should return false when the provided value is not a string", () => {
   expect(isString(false)).toBe(false)
