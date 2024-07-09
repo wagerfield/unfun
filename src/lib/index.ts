@@ -24,11 +24,25 @@ export { isObject } from "./isObject"
 export { isString } from "./isString"
 export { isUndefined } from "./isUndefined"
 
-// Key Value Mapping Functions
+// Key Value Functions
 export { keys } from "./keys"
 export { enums } from "./enums"
 export { values } from "./values"
 export { entries } from "./entries"
+
+// Math Functions
+export { add } from "./add"
+export { subtract } from "./subtract"
+export { multiply } from "./multiply"
+export { divide } from "./divide"
+export { pow } from "./pow"
+export { min } from "./min"
+export { max } from "./max"
+
+// String Functions
+// export { toString } from "./toString"
+// export { toLower } from "./toLower"
+// export { toUpper } from "./toUpper"
 
 // Mapping Functions
 export { map } from "./map"
