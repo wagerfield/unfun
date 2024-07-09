@@ -24,7 +24,11 @@ export { isObject } from "./isObject"
 export { isString } from "./isString"
 export { isUndefined } from "./isUndefined"
 
-// Math Functions
+// Key Value Mapping Functions
+export { keys } from "./keys"
+export { enums } from "./enums"
+export { values } from "./values"
+export { entries } from "./entries"
 
 // Mapping Functions
 export { map } from "./map"

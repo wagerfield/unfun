@@ -17,6 +17,14 @@ export interface ArrayLike<T> {
   length: number
 }
 
+export type Keys<T extends object> = (keyof T)[]
+
+export type Values<T extends object> = T[keyof T][]
+
+export type Entries<T extends object> = {
+  [K in keyof T]: [K, T[K]]
+}[keyof T][]
+
 export type Iterator<T, U> = (
   item: T,
   index: number,
