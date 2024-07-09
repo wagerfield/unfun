@@ -16,6 +16,7 @@ export { identity } from "./identity"
 // Type Guards
 export { isArray } from "./isArray"
 export { isBoolean } from "./isBoolean"
+export { isEnum } from "./isEnum"
 export { isNil } from "./isNil"
 export { isNull } from "./isNull"
 export { isNumber } from "./isNumber"
