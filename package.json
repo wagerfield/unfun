@@ -1,0 +1,85 @@
+{
+  "name": "unfun",
+  "license": "MIT",
+  "version": "0.0.1",
+  "homepage": "https://unfun.vercel.app",
+  "description": "2D graphics library for the web",
+  "repository": "https://github.com/wagerfield/unfun.git",
+  "bugs": "https://github.com/wagerfield/unfun/issues",
+  "author": {
+    "name": "Matthew Wagerfield",
+    "email": "matthew@wagerfield.com",
+    "url": "https://matthew.wagerfield.com"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "point-free",
+    "curried",
+    "tacit",
+    "pure"
+  ],
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/unfun.cjs",
+  "module": "./dist/unfun.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/unfun.js",
+      "require": "./dist/unfun.cjs"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro check && astro build",
+    "clean": "rm -rf .astro .vercel dist",
+    "format": "prettier --write .",
+    "preview": "astro preview",
+    "package": "vite build",
+    "release": "release-it",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "prettier --write",
+      "vitest related --run"
+    ],
+    "**/*.{json,md,mdx}": [
+      "prettier --write"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "prettier": {
+    "semi": false
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.7.0",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@fontsource-variable/inter": "5.0.19",
+    "@fontsource-variable/jetbrains-mono": "5.0.21",
+    "astro": "4.11.5",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "prettier": "3.3.2",
+    "release-it": "17.4.1",
+    "typescript": "5.5.3",
+    "vite": "5.3.3",
+    "vite-plugin-dts": "3.9.1",
+    "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "tailwindcss": "^3.4.4"
+  }
+}
