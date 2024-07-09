@@ -1,6 +1,9 @@
 // Types
 export * from "./types"
 
+// Placeholder
+export { __ } from "./__"
+
 // Curry Functions
 export { curry } from "./curry"
 

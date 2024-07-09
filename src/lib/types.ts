@@ -1,4 +1,8 @@
+import { __ } from "./__"
+
 export type Nil = null | undefined
+
+export type Placeholder = typeof __
 
 export type AnyObject = Record<string, any>
 
