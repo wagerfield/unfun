@@ -1,0 +1,297 @@
+# Functions
+
+## Function
+
+- [ ] addIndex
+- [ ] addIndexRight
+- [x] always
+- [ ] andThen
+- [ ] ap
+- [ ] apply
+- [ ] applySpec
+- [ ] ascend
+- [ ] ascendNatural
+- [ ] binary
+- [ ] bind
+- [ ] call
+- [ ] comparator
+- [ ] **compose**
+- [ ] composeWith
+- [ ] construct
+- [ ] constructN
+- [ ] converge
+- [x] curry
+- [ ] curryN
+- [ ] **descend**
+- [ ] descendNatural
+- [ ] empty
+- [x] F
+- [ ] flip
+- [ ] flow
+- [x] identity
+- [ ] invoker
+- [ ] juxt
+- [ ] lift
+- [ ] memoizeWith
+- [ ] nAry
+- [ ] o
+- [ ] of
+- [ ] on
+- [ ] once
+- [ ] otherwise
+- [ ] partial
+- [ ] partialObject
+- [ ] partialRight
+- [ ] **pipe**
+- [ ] pipeWith
+- [ ] promap
+- [x] T
+- [ ] **tap**
+- [ ] thunkify
+- [ ] tryCatch
+- [ ] unapply
+- [ ] unary
+- [ ] uncurryN
+- [ ] useWith
+
+## List
+
+- [ ] adjust
+- [ ] **all**
+- [ ] **any**
+- [ ] aperture
+- [ ] append
+- [ ] chain
+- [ ] collectBy
+- [ ] **concat**
+- [ ] count
+- [ ] drop
+- [ ] dropLast
+- [ ] dropLastWhile
+- [ ] dropRepeats
+- [ ] dropRepeatsBy
+- [ ] dropRepeatsWith
+- [ ] dropWhile
+- [ ] **endsWith**
+- [ ] **filter**
+- [ ] **find**
+- [ ] **findIndex**
+- [ ] **findLast**
+- [ ] **findLastIndex**
+- [ ] **flatten**
+- [ ] forEach
+- [ ] fromPairs
+- [ ] **groupBy**
+- [ ] groupWith
+- [ ] **head**
+- [ ] **includes**
+- [ ] indexBy
+- [ ] indexOf
+- [ ] init
+- [ ] insert
+- [ ] insertAll
+- [ ] intersperse
+- [ ] into
+- [ ] join
+- [ ] **last**
+- [ ] lastIndexOf
+- [ ] length
+- [ ] **map**
+- [ ] mapAccum
+- [ ] mapAccumRight
+- [ ] mergeAll
+- [ ] move
+- [ ] none
+- [ ] nth
+- [ ] pair
+- [ ] **partition**
+- [ ] **pluck**
+- [ ] prepend
+- [ ] range
+- [ ] **reduce**
+- [ ] reduceBy
+- [ ] reduced
+- [ ] reduceRight
+- [ ] reduceWhile
+- [ ] **reject**
+- [ ] remove
+- [ ] repeat
+- [ ] reverse
+- [ ] scan
+- [ ] sequence
+- [ ] **slice**
+- [ ] sort
+- [ ] splitAt
+- [ ] splitEvery
+- [ ] splitWhen
+- [ ] splitWhenever
+- [ ] **startsWith**
+- [ ] swap
+- [ ] **tail**
+- [ ] take
+- [ ] takeLast
+- [ ] takeLastWhile
+- [ ] takeWhile
+- [ ] times
+- [ ] transduce
+- [ ] transpose
+- [ ] traverse
+- [ ] unfold
+- [ ] **uniq**
+- [ ] uniqBy
+- [ ] uniqWith
+- [ ] unnest
+- [ ] update
+- [ ] **without**
+- [ ] xprod
+- [ ] zip
+- [ ] zipObj
+- [ ] zipWith
+
+## Logic
+
+- [ ] **allPass**
+- [ ] **and**
+- [ ] **anyPass**
+- [ ] **both**
+- [ ] **complement**
+- [ ] cond
+- [ ] defaultTo
+- [ ] **either**
+- [ ] **ifElse**
+- [ ] **isEmpty**
+- [ ] **isNotEmpty**
+- [ ] not
+- [ ] or
+- [ ] **pathSatisfies**
+- [ ] **propSatisfies**
+- [ ] unless
+- [ ] until
+- [ ] when
+- [ ] xor
+
+## Math
+
+- [ ] mathMod
+- [x] dec
+- [x] divide
+- [x] inc
+- [ ] mean
+- [ ] median
+- [x] modulo
+- [x] multiply
+- [x] negate
+- [x] pow
+- [ ] product
+- [x] subtract
+- [ ] sum
+
+## Object
+
+- [ ] **assoc**
+- [ ] **assocPath**
+- [ ] clone
+- [ ] **dissoc**
+- [ ] **dissocPath**
+- [ ] eqProps
+- [ ] evolve
+- [ ] forEachObjIndexed
+- [ ] **has**
+- [ ] hasIn
+- [ ] **hasPath**
+- [ ] invert
+- [ ] invertObj
+- [x] keys
+- [ ] keysIn
+- [ ] lens
+- [ ] lensIndex
+- [ ] lensPath
+- [ ] lensProp
+- [ ] mapObjIndexed
+- [ ] **mergeDeepLeft**
+- [ ] **mergeDeepRight**
+- [ ] mergeDeepWith
+- [ ] mergeDeepWithKey
+- [ ] **mergeLeft**
+- [ ] **mergeRight**
+- [ ] mergeWith
+- [ ] mergeWithKey
+- [ ] modify
+- [ ] modifyPath
+- [ ] objOf
+- [ ] **omit**
+- [ ] over
+- [ ] partialObject
+- [ ] **path**
+- [ ] **pathOr**
+- [ ] paths
+- [ ] **pick**
+- [ ] pickAll
+- [ ] pickBy
+- [ ] project
+- [ ] **prop**
+- [ ] **propOr**
+- [ ] props
+- [ ] set
+- [ ] **toPairs**
+- [ ] toPairsIn
+- [ ] unwind
+- [x] values
+- [ ] valuesIn
+- [ ] view
+- [ ] **where**
+- [ ] whereAny
+- [ ] whereEq
+
+## Relation
+
+- [ ] **clamp**
+- [ ] countBy
+- [ ] difference
+- [ ] differenceWith
+- [ ] eqBy
+- [ ] **equals**
+- [ ] **gt**
+- [ ] **gte**
+- [ ] identical
+- [ ] innerJoin
+- [ ] intersection
+- [ ] **lt**
+- [ ] **lte**
+- [x] max
+- [ ] maxBy
+- [x] min
+- [ ] minBy
+- [ ] **pathEq**
+- [ ] **propEq**
+- [ ] **sortBy**
+- [ ] sortWith
+- [ ] union
+- [ ] unionWith
+
+## String
+
+- [ ] **match**
+- [ ] **replace**
+- [ ] **split**
+- [ ] **test**
+- [ ] **toLower**
+- [ ] **toString**
+- [ ] **toUpper**
+- [ ] **trim**
+
+## Type
+
+- [ ] type
+- [ ] is
+- [x] isArray
+- [x] isBoolean
+- [x] isEnum
+- [x] isNil
+- [ ] isNotNil
+- [x] isNull
+- [x] isNumber
+- [x] isObject
+- [x] isString
+- [x] isUndefined
+- [ ] propIs
