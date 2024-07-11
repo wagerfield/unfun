@@ -10,17 +10,6 @@ export type AnyFunction = (...args: any[]) => any
 
 export type Predicate<T> = (value: T) => boolean
 
-export interface Filterable {}
-
-export interface Iterable {}
-
-export interface Functor {}
-
-export interface ArrayLike<T> {
-  [index: number]: T
-  length: number
-}
-
 export type Keys<T extends object> = (keyof T)[]
 
 export type Values<T extends object> = T[keyof T][]
