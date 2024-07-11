@@ -1,4 +1,4 @@
-import type { ArrayLike, Iterator } from "./types"
+import type { Iterator } from "./types"
 
 export function eachBy<T, U>(
   inc: number,

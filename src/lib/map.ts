@@ -1,4 +1,4 @@
-import type { ArrayLike, Iterator } from "./types"
+import type { Iterator } from "./types"
 import { each } from "./each"
 
 export function map<T, U>(array: ArrayLike<T>, fn: Iterator<T, U>): U[] {
