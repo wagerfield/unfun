@@ -45,12 +45,3 @@ export { multiply } from "./multiply"
 export { divide } from "./divide"
 export { modulo } from "./modulo"
 export { negate } from "./negate"
-
-// String Functions
-// export { toString } from "./toString"
-// export { toLower } from "./toLower"
-// export { toUpper } from "./toUpper"
-
-// Mapping Functions
-export { map } from "./map"
-export { partition } from "./partition"
