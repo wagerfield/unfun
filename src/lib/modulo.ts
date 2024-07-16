@@ -1,3 +1,3 @@
 import { curry } from "./curry"
 
-export const modulo = curry((a: number, b: number) => a % b)
+export const modulo = curry((x: number, y: number) => x % y)
