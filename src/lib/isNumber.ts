@@ -1,1 +1,1 @@
-export const isNumber = (x: unknown): x is number => typeof x === "number"
+export const isNumber = (val: unknown): val is number => typeof val === "number"

@@ -1,5 +1,5 @@
 import type { AnyObject } from "./types"
 import { isArray } from "./isArray"
 
-export const isObject = (x: unknown): x is AnyObject =>
-  x != null && typeof x === "object" && !isArray(x)
+export const isObject = (val: unknown): val is AnyObject =>
+  val != null && typeof val === "object" && !isArray(val)
