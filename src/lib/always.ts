@@ -1,4 +1,4 @@
 export const always =
-  <T>(value: T) =>
+  <T>(val: T) =>
   () =>
-    value
+    val
