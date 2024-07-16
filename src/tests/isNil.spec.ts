@@ -8,6 +8,8 @@ it("should return false when the provided value is not null or undefined", () =>
   expect(isNil(123)).toBe(false)
   expect(isNil({})).toBe(false)
   expect(isNil([])).toBe(false)
+  expect(isNil("")).toBe(false)
+  expect(isNil(0)).toBe(false)
 })
 
 it("should return true when the provided value is null or undefined", () => {
