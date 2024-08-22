@@ -3,12 +3,15 @@
 
 # astro
 /.astro
-/dist
+/astro
 
 # vercel
 /.vercel
 
-# tmp
+# build
+/dist
+
+# temp
 /tmp
 
 # env
