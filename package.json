@@ -2,6 +2,7 @@
   "name": "unfun",
   "license": "MIT",
   "version": "0.0.0",
+  "packageManager": "pnpm@9.8.0",
   "homepage": "https://unfun.vercel.app",
   "description": "Type-safe functional programming library written in TypeScript",
   "repository": "https://github.com/wagerfield/unfun.git",
@@ -35,13 +36,13 @@
     }
   },
   "scripts": {
-    "test": "vitest",
     "dev": "astro dev",
-    "check": "astro check",
     "build": "astro check && astro build",
+    "preview": "astro preview",
     "clean": "rm -rf .astro .vercel astro dist",
     "format": "prettier --write .",
-    "preview": "astro preview",
+    "test:watch": "vitest watch",
+    "test:once": "vitest run",
     "package": "vite build",
     "release": "release-it",
     "prepare": "husky"

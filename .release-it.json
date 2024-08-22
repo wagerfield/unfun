@@ -9,7 +9,7 @@
       "pnpm clean",
       "pnpm package",
       "pnpm format",
-      "pnpm test"
+      "pnpm test:once"
     ]
   },
   "github": {
