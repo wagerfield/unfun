@@ -1,7 +1,7 @@
 {
   "name": "unfun",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.8.0",
   "homepage": "https://unfun.vercel.app",
   "description": "Type-safe functional programming library written in TypeScript",
