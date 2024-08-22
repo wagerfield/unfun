@@ -1,3 +1,5 @@
-export const __ = Symbol("placeholder")
+export class __ {
+  __ = Symbol("__")
+}
 
-export type Placeholder = typeof __
+export const placeholder = new __()
