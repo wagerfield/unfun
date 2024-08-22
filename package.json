@@ -3,7 +3,7 @@
   "license": "MIT",
   "version": "0.0.0",
   "homepage": "https://unfun.vercel.app",
-  "description": "2D graphics library for the web",
+  "description": "Type-safe functional programming library written in TypeScript",
   "repository": "https://github.com/wagerfield/unfun.git",
   "bugs": "https://github.com/wagerfield/unfun/issues",
   "author": {
@@ -15,6 +15,7 @@
     "functional",
     "programming",
     "point-free",
+    "type-safe",
     "curried",
     "tacit",
     "pure"
@@ -38,7 +39,7 @@
     "dev": "astro dev",
     "check": "astro check",
     "build": "astro check && astro build",
-    "clean": "rm -rf .astro .vercel dist",
+    "clean": "rm -rf .astro .vercel astro dist",
     "format": "prettier --write .",
     "preview": "astro preview",
     "package": "vite build",

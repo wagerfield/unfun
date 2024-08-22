@@ -1,6 +1,6 @@
-# [unfun]
+# [unfun] ⚠️ WIP ⚠️
 
-Functional programming library written in TypeScript.
+Type-safe functional programming library written in TypeScript.
 
     npm add unfun
 
@@ -17,10 +17,10 @@ Functional programming library written in TypeScript.
 | ------- | -------------------------------- |
 | dev     | Run Astro docs in development    |
 | build   | Build Astro docs for production  |
+| preview | Preview production Astro docs    |
 | test    | Run unit test suite              |
 | clean   | Clean generated directories      |
 | format  | Format code using Prettier       |
-| preview | Preview production Astro docs    |
 | package | Package library for distribution |
 | release | Release library to NPM           |
 
