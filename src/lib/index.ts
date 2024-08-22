@@ -2,46 +2,55 @@
 export * from "./types"
 
 // Placeholder
-export { __ } from "./__"
+export { placeholder as __ } from "./__"
 
 // Curry Functions
-export { curry } from "./curry"
+export * from "./curry"
 
 // Primitive Functions
-export { T } from "./T"
-export { F } from "./F"
-export { noop } from "./noop"
+export * from "./F"
+export * from "./T"
+export * from "./noop"
 
 // Identity Functions
-export { always } from "./always"
-export { identity } from "./identity"
+export * from "./always"
+export * from "./identity"
 
 // Type Guards
-export { isArray } from "./isArray"
-export { isBoolean } from "./isBoolean"
-export { isEnum } from "./isEnum"
-export { isNil } from "./isNil"
-export { isNull } from "./isNull"
-export { isNumber } from "./isNumber"
-export { isObject } from "./isObject"
-export { isString } from "./isString"
-export { isUndefined } from "./isUndefined"
-
-// Key Value Functions
-export { keys } from "./keys"
-export { enums } from "./enums"
-export { values } from "./values"
-export { entries } from "./entries"
+export * from "./isArray"
+export * from "./isBoolean"
+export * from "./isEnum"
+export * from "./isList"
+export * from "./isNil"
+export * from "./isNull"
+export * from "./isNumber"
+export * from "./isObject"
+export * from "./isString"
+export * from "./isUndefined"
 
 // Math Functions
-export { min } from "./min"
-export { max } from "./max"
-export { inc } from "./inc"
-export { dec } from "./dec"
-export { pow } from "./pow"
-export { add } from "./add"
-export { subtract } from "./subtract"
-export { multiply } from "./multiply"
-export { divide } from "./divide"
-export { modulo } from "./modulo"
-export { negate } from "./negate"
+export * from "./min"
+export * from "./max"
+export * from "./inc"
+export * from "./dec"
+export * from "./pow"
+export * from "./add"
+export * from "./subtract"
+export * from "./multiply"
+export * from "./divide"
+export * from "./modulo"
+export * from "./negate"
+
+// List Functions
+export * from "./concat"
+export * from "./uniq"
+
+// Object Functions
+export * from "./keys"
+export * from "./enums"
+export * from "./values"
+export * from "./entries"
+
+// String Functions
+export * from "./toLowerCase"
+export * from "./toUpperCase"
