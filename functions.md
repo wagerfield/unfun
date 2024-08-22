@@ -5,11 +5,11 @@
 - [ ] addIndex
 - [ ] addIndexRight
 - [x] always
-- [ ] andThen
+- [ ] **andThen**
 - [ ] ap
-- [ ] apply
+- [ ] **apply**
 - [ ] applySpec
-- [ ] ascend
+- [ ] **ascend**
 - [ ] ascendNatural
 - [ ] binary
 - [ ] bind
@@ -26,7 +26,7 @@
 - [ ] descendNatural
 - [ ] empty
 - [x] F
-- [ ] flip
+- [ ] **flip**
 - [ ] flow
 - [x] identity
 - [ ] invoker
@@ -38,7 +38,7 @@
 - [ ] of
 - [ ] on
 - [ ] once
-- [ ] otherwise
+- [ ] **otherwise**
 - [ ] partial
 - [ ] partialObject
 - [ ] partialRight
@@ -83,7 +83,7 @@
 - [ ] fromPairs
 - [ ] **groupBy**
 - [ ] groupWith
-- [ ] **head**
+- [ ] head
 - [ ] **includes**
 - [ ] indexBy
 - [ ] indexOf
@@ -93,7 +93,7 @@
 - [ ] intersperse
 - [ ] into
 - [ ] join
-- [ ] **last**
+- [ ] last
 - [ ] lastIndexOf
 - [ ] length
 - [ ] **map**
@@ -127,7 +127,7 @@
 - [ ] splitWhenever
 - [ ] **startsWith**
 - [ ] swap
-- [ ] **tail**
+- [ ] tail
 - [ ] take
 - [ ] takeLast
 - [ ] takeLastWhile
@@ -275,9 +275,13 @@
 - [ ] **replace**
 - [ ] **split**
 - [ ] **test**
-- [ ] **toLower**
+- [ ] toCamelCase
+- [ ] toConstantCase
+- [x] toLowerCase / toLower
+- [ ] toPascalCase
+- [ ] toSnakeCase
 - [ ] **toString**
-- [ ] **toUpper**
+- [x] toUpperCase / toUpper
 - [ ] **trim**
 
 ## Type
